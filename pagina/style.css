@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "CormorantGaramond-Light";
+    src: url(../tipografía/CormorantGaramond-Light.ttf)
+}
+
+@font-face {
+    font-family: "CormorantGaramond-Regular";
+    src: url(../tipografía/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DancingScript-Bold";
+    src: url(../tipografía/DancingScript-Bold.ttf);
+}
+
+@font-face {
+    font-family: "DancingScript-Regular";
+    src: url(../tipografía/DancingScript-Regular.ttf)
+}
+@font-face {
+    font-family: "Grabiola";
+    src: url(../tipografía/Gabriola.ttf)
+}
+
+
+.contenedor_principal {
+    background-repeat: no-repeat;
+    background: url(../imagenes/fond.jpg);
+    background-size: cover;
+    height: 115vh;
+    width: 100%;
+}
+
+/* comic */
+.contenedor_comic {
+    background-repeat: no-repeat;
+    background: url(../imagenes/fcomic.png);
+    background-size: cover;
+    height: 115vh;
+    width: 100%;
+    background-color: hsl(203, 48%, 89%);
+}
+
+.titcomic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DancingScript-Regular";
+    font-weight: bold;
+    color: hsl(204, 90%, 72%);
+    font-size: 75px;
+    height: 50vh;
+    width: 130vh;
+}
+
+/* comic */
+
+/* tiendita */
+.contenedor_tiendita {
+    background-repeat: no-repeat;
+    background: url(../imagenes/tiendita.png);
+    background-size: cover;
+    height: 840px;
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.conti {
+    background-color: rgb(250, 250, 250);
+    margin-top: 40px;
+}
+
+.card {
+    width: 300px;
+
+}
+
+.title {
+    font-family: "CormorantGaramond-Regular";
+    font-size: 30px;
+    background-color: #8dd7fa;
+}
+
+/* tiendita */
+.nav {
+    font-family: "CormorantGaramond-Regular";
+    font-size: 33px;
+    margin-top: 30px;
+
+}
+
+/* registro */
+.contenedor_registro {
+    background-color: #C0E7F9;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* registro */
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #159CF9;
+    /*    background-color: #159CF9;
+    border-radius: 1rem; */
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+/* .registro{
+
+} */
+.tittle {
+    font-size: 43px;
+    margin-left: -140px;
+    margin-top: 50px;
+    font-family: "CormorantGaramond-Regular";
+}
+
+.tittlef {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 265px;
+    margin-top: -70px;
+    font-family: "DancingScript-Regular";
+    font-weight: bold;
+    color: #159CF9;
+}
+
+.frase {
+    font-family: "CormorantGaramond-Regular";
+    font-size: 21px;
+}
+
+/* Bonton comic */
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "CormorantGaramond-Regular";
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 45px;
+    background-color: rgb(115, 195, 248);
+    width: 180px;
+    height: 50px;
+}
+
+.boton:hover {
+    background-color: #159CF9;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --bs-btn-border-color: rgb(115, 195, 248);
+    --bs-btn-hover-border-color: rgb(115, 195, 248);
+}
+
+.men {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.imgCon {
+    height: 170px;
+    margin-top: 30px;
+}
+
+.imgObje {
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.p-1 {
+    margin-top: 60px;
+}
+
+.tittleConocenos {
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: "CormorantGaramond-Regular";
+    text-align: center;
+    color: #58c1fd;
+}
+
+.tittlecono {
+    font-family: "CormorantGaramond-Regular";
+    color: #000000;
+}
+
+.parrafocono {
+    font-family: "CormorantGaramond-Regular";
+    text-align: justify !important;
+    font-size: 20px;
+    width: 70%;
+
+
+}
+
+.objetivo {
+    background-color: #00CAFF;
+}
+
+.tittleobj {
+    font-family: "CormorantGaramond-Regular";
+    color: rgb(250, 146, 146);
+
+
+}
+
+.parrafoobj {
+    font-family: "CormorantGaramond-Regular";
+    color: white;
+    font-size: 20px;
+
+}
+
+.personajes {
+    width: 120px;
+}
+
+.imagen-personajes {
+    display: flex;
+    width: 75%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* .bg-cono{
+   /*  background-color: #C0E7F9; */
+/* } */
+
+/* .bg-obj {
+    background: url(../imagenes/fond.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+/*  background-position-y: 80vh;
+   */
+/*  background-color: #e7e7e7; */
+/*  padding: 60px;
+} */
+
+
+
+.bg-personajes {
+    background: #e9e9e9;
+    padding: 60px;
+}
+
+.fondo3 {
+    height: 245px;
+    margin-left: -309px;
+    margin-top: -70px;
+
+}
+
+.tittlepers {
+    color: #636363;
+    font-family: "CormorantGaramond-Regular";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 55px;
+
+}
+
+.imgCon {
+    height: 120px;
+}
+
+.imgObje {
+    height: 120px;
+}
+
+.fondoNubes {
+    display: flex;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 130px;
+}
+
+.contenedor_logline {
+    height: 720px;
+    width: 100%;
+    background: linear-gradient(#9de0ff, #66acfd);
+}
+.container_redes{
+background-color: #f7f7f7;
+}
+.reds{
+    display: flex;
+    height: 120px;
+    gap: 50px;
+}
+.cel{
+    height: 790px;
+    margin-left: -370px;
+   
+}
+.invi {
+    font-size: 73px;
+    margin-left: -400px;
+    margin-top: 300px;
+    font-family: "CormorantGaramond-Regular";
+}
+.invit {
+    font-size: 73px;
+    margin-left: -340px;
+    margin-top: -25px;
+    font-family: "CormorantGaramond-Regular";
+}
+
+.comi {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: -120px;
+    font-family: "DancingScript-Regular";
+   
+    color: #159CF9;
+}
+.boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gabriola";
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 45px;
+    background-color: rgb(115, 195, 248);
+    width: 230px;
+    height: 60px;
+}
+
+.boton1:hover {
+    background-color: #159CF9;
+}
